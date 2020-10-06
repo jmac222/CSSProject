@@ -10,10 +10,11 @@
     border: solid red 1px;
 
     gap: 2px;
+    width: 100%;
 }
 
 .cell-a {
-    grid-area: logo1;
+    
     background-color: orange;
     grid-column: 1/5;
     grid-row: 1/4;
@@ -27,7 +28,7 @@
     
 }
 .cell-c {
-    grid-area: main;
+    
     background-color: orange;
     grid-column: 5/6;
     grid-row: 2/3;
@@ -176,8 +177,25 @@
 
 body{
     width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 html{
     background-color: orange;
 }
+
+ul {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    list-style-type: none;
+
+}
+
+li {
+    margin: 20px;
+    font-size: x-large;
+}
+
